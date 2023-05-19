@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+.firstLogoLine {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: inherit;
+}
+.logoImage{
+    width: 100px ;
+}
+
+.secondLogoLine{
+        BACKGROUND-COLOR: #fdfbf1;
+        BORDER-TOP: #feefc8 SOLID;
+        DISPLAY: FLEX;
+        JUSTIFY-CONTENT: center;
+        ALIGN-ITEMS: CENTER;
+        color: #009797;
+        font-size: 0.6rem;
+        font-family: math;
+}
+h1{
+    font-size: 2.4rem;
+}
+
+main{
+        display: flex;
+        justify-content: center;
+        flex-flow: row nowrap;
+}
+main>div, section>div{
+    width: 750px;
+    font-size: 1.2rem;
+}
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+}
+.mainImage{
+    width: inherit;
+}
+.mainImage>img{
+        border-radius: 7px;
+        box-shadow: 5px 5px 3px 0px #00000036;
+}
+.sourceImageBox{
+    text-align: center;
+    color: #00000073;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+}
+h4 {
+margin-block-start: 0.8rem;
+margin-block-end: 0.8rem;
+}
+.featuredBox {
+    border-left: #feefc8 SOLID;
+}
+.featuredBox>div{
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.featuredTitle>p {
+    color: #e4875b;
+    font-weight: 600;
+    font-family: math;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+a{
+    color: #009797;
+}
+
+.titleBox {
+    border-bottom: 1px solid #00979752;
+}
+ol>dd{
+    margin-inline-start: 0;
+}
+.readMore>p{
+    margin-block-start: 0;
+}
